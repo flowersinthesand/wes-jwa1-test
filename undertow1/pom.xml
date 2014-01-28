@@ -9,7 +9,7 @@
 	<url>http://flowersinthesand.github.io/wes</url>
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-		<wes.version>0.2.0</wes.version>
+		<wes.version>0.2.1</wes.version>
 		<slf4j.version>1.7.5</slf4j.version>
 		<undertow.version>1.0.0.Beta33</undertow.version>
 	</properties>
