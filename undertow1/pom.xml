@@ -1,5 +1,4 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>io.github.flowersinthesand</groupId>
 	<artifactId>wes-jwa1-test-undertow1</artifactId>
@@ -11,7 +10,7 @@
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<wes.version>0.2.1</wes.version>
 		<slf4j.version>1.7.5</slf4j.version>
-		<undertow.version>1.0.0.Beta33</undertow.version>
+		<undertow.version>1.0.0.CR1</undertow.version>
 	</properties>
 	<dependencies>
 		<dependency>

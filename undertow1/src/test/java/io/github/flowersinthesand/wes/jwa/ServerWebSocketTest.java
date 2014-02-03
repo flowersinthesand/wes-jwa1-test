@@ -19,7 +19,6 @@ import static org.hamcrest.Matchers.instanceOf;
 import static org.junit.Assert.assertThat;
 import io.github.flowersinthesand.wes.Action;
 import io.github.flowersinthesand.wes.ServerWebSocket;
-import io.github.flowersinthesand.wes.jwa.JwaBridge;
 import io.github.flowersinthesand.wes.test.ServerWebSocketTestTemplate;
 import io.undertow.Undertow;
 import io.undertow.servlet.Servlets;
@@ -31,7 +30,6 @@ import javax.servlet.ServletException;
 import javax.websocket.Session;
 import javax.websocket.server.ServerEndpointConfig;
 
-import org.junit.Ignore;
 import org.junit.Test;
 
 public class ServerWebSocketTest extends ServerWebSocketTestTemplate {
@@ -75,13 +73,6 @@ public class ServerWebSocketTest extends ServerWebSocketTestTemplate {
 		})
 		.connect();
 	}
-	
-	// Fixed in 1.0.0.Beta34
-	// https://issues.jboss.org/browse/UNDERTOW-177
-	@Override
-	@Test
-	@Ignore
-	public void uri() {}
 
 	@Override
 	protected void stopServer() {
